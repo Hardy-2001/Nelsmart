@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<p style="color:red; font-size:14px;">* Indicates required field</p>
+
+<div class="container py-5">
+    <div class="mx-auto" style="max-width: 700px;">
+
+    <!-- HEADER -->
+    <div class="btn btn-warning w-100 fw-bold">
+        <h2 class="fw-bold">Premium Plan</h2>
+        <p class="text-muted">Advanced solar solution for larger homes & businesses</p>
+    </div>
+
+    <!-- LOGO -->
+    <div class="card shadow-sm text-center p-4 mb-4">
+        <img src="{% static 'images/logo.png' %}" class="logo-img">
+    </div>
+
+    <!-- FORM -->
+    <div class="card shadow-sm p-4">
+
+        <form method="post">
+            {% csrf_token %}
+
+            <!-- EMAIL -->
+            <div class="form-group mb-4">
+                <label class="fw-bold">Email Address *</label>
+                <input type="email" name="email" class="form-control input-style" required>
+            </div>
+
+            <!-- PHONE -->
+            <div class="form-group mb-4">
+                <label class="fw-bold">Phone Number</label>
+                <input type="text" name="phone" class="form-control input-style">
+            </div>
+
+            <!-- LOCATION -->
+            <div class="form-group mb-4">
+                <label class="fw-bold">Project Location *</label>
+                <select name="state" class="form-control input-style">
+                    <option>Douala</option>
+                    <option>Yaoundé</option>
+                    <option>Bamenda</option>
+                    <option>Buea</option>
+                    <option>Garoua</option>
+                    <option>Limbe</option>
+                    <option>Maroua</option>
+                    <option>Ngaoundéré</option>
+                    <option>Bertoua</option>
+                    <option>Ebolowa</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <!-- APPLIANCES -->
+            <h5 class="mb-3 fw-bold">Select Appliances (Premium Plan)</h5>
+
+            <div id="appliance-container">
+
+                <div class="row appliance-row mb-3">
+                    <div class="col-md-3">
+                        <select name="appliance[]" class="form-control input-style">
+                            <option>LED Bulb</option>
+                            <option>Fan</option>
+                            <option>TV (LED)</option>
+                            <option>Refrigerator</option>
+                            <option>Freezer</option>
+                            <option>Air Conditioner (1HP)</option>
+                            <option>Air Conditioner (1.5HP)</option>
+                            <option>Air Conditioner (2HP)</option>
+                            <option>Washing Machine</option>
+                            <option>Electric Iron</option>
+                            <option>Microwave</option>
+                            <option>Water Heater</option>
+                            <option>Water Pump</option>
+                            <option>Desktop Computer</option>
+                            <option>Router/WiFi</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-2">
+                        <input type="number" name="quantity[]" placeholder="Qty" class="form-control input-style">
+                    </div>
+
+                    <div class="col-md-2">
+                        <input type="number" name="hours[]" placeholder="Hours/day" class="form-control input-style">
+                    </div>
+
+                    <div class="col-md-2">
+                        <input type="number" name="day_hours[]" placeholder="Day hrs" class="form-control input-style">
+                    </div>
+
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-danger remove-row">X</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="btn btn-secondary mb-4" id="add-appliance">
+                + Add Appliance
+            </button>
+
+            <hr>
+
+            <!-- NOTES -->
+            <div class="form-group mb-4">
+                <label class="fw-bold">Special Requirements</label>
+                <textarea name="message" class="form-control input-style" placeholder="E.g. 24/7 power, AC priority, office use..."></textarea>
+            </div>
+
+            <!-- SUBMIT -->
+            <button class="btn btn-warning w-100 fw-bold">
+                Calculate & Submit
+            </button>
+
+        </form>
+
+    </div>
+
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('add-appliance').onclick = function() {
+    let container = document.getElementById('appliance-container');
+    let row = document.querySelector('.appliance-row').cloneNode(true);
+
+    row.querySelectorAll('input').forEach(input => input.value = '');
+
+    container.appendChild(row);
+};
+
+document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('remove-row')) {
+        if (document.querySelectorAll('.appliance-row').length > 1) {
+            e.target.closest('.appliance-row').remove();
+        }
+    }
+});
+</script>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2 class="text-center mb-5 fw-bold">Our Recent Projects</h2>
+
+<div class="row g-4">
+
+    {% for project in projects %}
+    <div class="col-md-4 fade-section">
+
+        <div class="project-card">
+
+            <!-- IMAGE -->
+            <img src="{{ project.main_image.url }}">
+
+            <!-- OVERLAY -->
+            <div class="project-overlay">
+                <div class="project-title">
+                    {{ project.title }}
+                </div>
+
+                <a href="{% url 'project_detail' project.id %}" class="project-btn">
+                    View More →
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+<div class="mb-4">
+    <a href="{% url 'projects' %}" class="back-btn">
+        ← Back to Projects
+    </a>
+</div>
+    <h2 class="mb-3">{{ project.title }}</h2>
+
+    <!-- MAIN IMAGE -->
+    <div class="mb-4">
+        <img src="{{ project.main_image.url }}" class="img-fluid rounded shadow">
+    </div>
+
+    <!-- DESCRIPTION -->
+    <p class="lead">{{ project.description }}</p>
+
+    <hr>
+
+    <h4 class="mb-3">Project Gallery</h4>
+
+    <div class="row g-3">
+        {% for img in project.images.all %}
+        <div class="col-md-3">
+            <div class="gallery-card">
+                <img src="{{ img.image.url }}" class="img-fluid">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+{% endblock %}

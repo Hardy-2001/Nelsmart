@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- HERO SECTION -->
+<section class="culture-hero">
+    <div class="culture-hero-overlay">
+        <div class="container">
+            <h1>Our Culture Deck</h1>
+            <p>
+                “Anything is possible for a company when its culture is about listening,
+                learning and harnessing individual passions and talents, to the
+                company’s mission”
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTENT SECTION -->
+<section class="culture-content container my-5">
+    <div class="row align-items-center">
+
+        <!-- LEFT TEXT -->
+        <div class="col-md-6">
+            <p>
+                Culture is important. A company’s culture may well be its greatest asset.
+                A strong, well-designed culture gives life to exactly how a company operates,
+                its vision, mission, values, and purpose.
+            </p>
+
+            <p>
+                Our culture is designed to bring our employees together, help us stand out
+                in the industry and grow our business. It explains the values and behaviours
+                we look out for to attract, recruit and retain world-class talents.
+                It also highlights how our employees can make a difference and fulfil their potentials.
+            </p>
+
+            <p>
+                Note that while aspects of the culture may be reviewed periodically in order
+                to make our company the best place to work, we will remain true to our core values.
+            </p>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="col-md-6">
+            <img src="{% static 'images/culturePic1.jpg' %}" class="img-fluid culture-img">
+        </div>
+
+    </div>
+
+
+    <div class="row text-center">
+
+        <div class="col-md-3">
+
+            <h5>Professionalism</h5>
+            <p>
+             We are qualified, skilled and committed. We exhibit pride in
+                professional appearance, language and behavior.</p>
+        </div>
+
+        <div class="col-md-3">
+
+            <h5>Excellence</h5>
+
+            We strive to achieve the highest standards of excellence and continuous improvement.
+            We have a bias for action and getting things done
+        </div>
+
+        <div class="col-md-3">
+            <h5>Innovation</h5>
+
+          We find new ways to make things better. We optimize results
+            by working smarter. We take risks, learn and grow
+        </div>
+
+        <div class="col-md-3">
+
+            <h5>Integrit </h5>
+            <p>We make honesty and transparency the foundation for all our actions.
+                We question actions that are inconsistent with our core values</p>
+        </div>
+
+    </div>
+     <div class="row text-center">
+    <div class="col-md-3">
+
+    <h5>Accountability</h5>
+
+    <p>
+        We strive to be good managers of the company’s resources.
+        We continuously look for ways to eliminate waste and improve efficiency.
+    </p>
+</div>
+
+<div class="col-md-3">
+    <h5>Teamwork</h5>
+
+    <p>
+        We share common goals and hold ourselves accountable.
+        We collaborate and work across teams to achieve better outcomes.
+    </p>
+</div>
+
+<div class="col-md-3">
+
+    <h5>Safety</h5>
+
+    <p>
+        We are committed to ensuring the personal safety of our employees
+        and the security of our installations at all times.
+    </p>
+    </div>
+
+ </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,180 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="academy-section">
+    <div class="container">
+
+        <h2 class="academy-title">
+            NELSMART ACADEMY PREPARES YOU FOR THE FUTURE OF RENEWABLE ENERGY
+        </h2>
+
+        <div class="academy-content">
+
+            <!-- LEFT SIDE -->
+            <div class="container">
+            <div class="academy-left">
+                <p>
+                    <strong>Nelsmart Academy</strong> is committed to training aspiring solar installers
+                    into skilled professionals with practical, real-world knowledge.
+                </p>
+
+                <p>
+                    Our hands-on training ensures you gain the technical expertise needed to succeed
+                    in the fast-growing renewable energy industry.
+                </p>
+
+                <p>
+                    Whether you're starting fresh or upgrading your skills, we provide step-by-step
+                    guidance to help you become a certified solar technician.
+                </p>
+
+                <p>
+                    Join us today and unlock career and business opportunities in Cameroon’s energy sector.
+                </p>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="academy-right">
+                <h3>Training Highlights</h3>
+
+                <ul>
+                    <li>✔ Introduction to solar energy systems</li>
+                    <li>✔ Safety training (HSE)</li>
+                    <li>✔ Solar panel installation</li>
+                    <li>✔ Battery & inverter setup</li>
+                    <li>✔ System sizing & energy audit</li>
+                    <li>✔ Real-life project training</li>
+                    <li>✔ Maintenance & troubleshooting</li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</section>
+<div class="container py-5">
+
+    <!-- ENROLL BUTTON -->
+    <div class="text-center my-4">
+        <a href="#apply-form" class="btn btn-warning enroll-btn">
+            Enroll Now
+        </a>
+    </div>
+
+    <section class="academy-section">
+        <div class="row mb-5 align-items-center">
+
+            <!-- VIDEO -->
+            <div class="col-md-6">
+                {% if video %}
+                    <video style="width:100%; border-radius:10px;" controls>
+                        <source src="{{ video.video.url }}">
+                    </video>
+                {% else %}
+                    <p style="color:red;">No training video available</p>
+                {% endif %}
+        </div>
+
+        <!-- TEXT -->
+
+        <div class="academy-left">
+          <h2>About the Academy</h2>
+
+                <p>
+                    <strong>Nelsmart Solar Academy</strong> is the training arm of Nelsmart Technologies,
+                    one of the fast-growing renewable energy companies in Cameroon.
+                </p>
+
+                <p>
+                    In partnership with leading global solar technology providers, we deliver intensive
+                    theoretical, practical, and real-life installation training in solar energy systems.
+                </p>
+
+                <p>
+                    Our trainings are conducted in a conducive learning environment with experienced
+                    professionals and hands-on practical sessions to ensure real understanding.
+                </p>
+
+                <p>
+                    Sessions are highly interactive, allowing trainees to ask questions, practice,
+                    and build confidence in real-world applications.
+                </p>
+
+                <p>
+                    At the end of the training, participants receive certification and may be considered
+                    for partnership opportunities as certified Nelsmart installers.
+                </p>
+
+         </div>
+        </section>
+</div>
+
+    <!-- BENEFITS -->
+    <div  class="row text-center mb-5">
+        <div class="col-md-4">
+            <h5>Practical Training</h5>
+            <p>Learn by doing real installations</p>
+        </div>
+
+        <div class="col-md-4">
+            <h5>Expert Trainers</h5>
+            <p>Guided by experienced professionals</p>
+        </div>
+
+        <div class="col-md-4">
+            <h5>Career Opportunity</h5>
+            <p>Start your journey in solar & electronics</p>
+        </div>
+    </div>
+<section class="academy-section">
+    <!-- APPLICATION FORM -->
+    <div class="card p-4 shadow" id="apply-form">
+        <h3 class="text-center mb-3">Register Now</h3>
+
+        <p class="text-center text-muted">
+            Submit your details and we will contact you via WhatsApp and Email.
+        </p>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <div class="mb-3">
+                <label>Name</label>
+                {{ form.name }}
+            </div>
+
+            <div class="mb-3">
+                <label>Email</label>
+                {{ form.email }}
+            </div>
+
+            <div class="mb-3">
+                <label>Phone</label>
+                {{ form.phone }}
+            </div>
+
+            <div class="mb-3">
+                <label>Message</label>
+                {{ form.message }}
+            </div>
+
+            <button class="btn btn-warning w-100 mt-3">
+                Submit & Continue to WhatsApp
+            </button>
+        </form>
+
+        <!-- DIRECT WHATSAPP -->
+        <div class="text-center mt-3">
+            <a href="https://wa.me/2348136721641" target="_blank" class="btn btn-success">
+                Chat on WhatsApp Directly
+            </a>
+        </div>
+    </div>
+</section>
+</div>
+
+
+
+
+{% endblock %}

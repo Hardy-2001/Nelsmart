@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Your Cart</h2>
+
+{% if products %}
+<table class="table">
+    <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Total Price</th>
+    </tr>
+
+    {% for product in products %}
+    <tr>
+        <td>{{ product.name }}</td>
+        <td>{{ product.quantity }}</td>
+        <td>{{product.total_price }}FCFA</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h3>Total: {{ total }}FCFA</h3>
+
+   <div class="d-flex justify-content-between mt-4">
+    <a href="{% url 'shop' %}" class="btn btn-outline-dark">
+        Continue Shopping
+    </a>
+
+    <a href="{% url 'checkout' %}" class="btn btn-success btn-lg">
+        Proceed to Checkout
+    </a>
+
+{% else %}
+<p>Your cart is empty</p>
+{% endif %}
+
+{% endblock %}

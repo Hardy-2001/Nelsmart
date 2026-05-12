@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container my-5">
+    <img src="{% static 'images/lithium1_picture.jpg' %}" class="slide-img">
+    <h2 class="mb-4 text-center">Lithium & Inverter Batteries</h2>
+
+<hr class="my-5">
+    <div class="row">
+
+        <div class="col-md-6">
+             <img src="{% static 'images/blue_carbon_picture.jpg' %}" class="slide-img">
+        </div>
+
+        <div class="col-md-6">
+              <p>
+                    Lithium and inverter batteries are essential power storage solutions used in homes, offices, and solar systems. Lithium batteries are known for their high efficiency, long lifespan, and fast charging capabilities, while inverter batteries provide reliable backup power during outages.
+              </p>
+                 <br>
+            <p>
+                These batteries store electrical energy and supply it when needed, ensuring uninterrupted power for appliances and devices. They are widely used in solar systems, backup power setups, and off-grid installations due to their reliability and performance.
+            </p>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+
+       <div class="col-md-6">
+    <h2 class="fw-bold">Stay powered, stay connected</h2>
+
+    <p class="text-muted">
+        Reliable and energy-efficient battery solutions for homes, businesses, and solar energy systems.
+    </p>
+
+    <ul>
+        <li>✔ Long-lasting power – Provides extended backup time for uninterrupted electricity</li>
+
+        <li>✔ Fast charging – Lithium batteries charge quickly and efficiently</li>
+
+        <li>✔ High efficiency – Minimal energy loss during storage and usage</li>
+
+        <li>✔ Wide applications – Suitable for solar systems, inverters, and backup power</li>
+    </ul>
+
+    <a href="{% url 'shop' %}?q=battery " class="btn btn-warning mt-3">Get This Product</a>
+</div>
+
+        <div class="col-md-6">
+            <div class="slider-wrapper">
+                <div class="slider-track" id="sliderTrack">
+
+                    <img src="{% static 'images/blue_carbon1.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/blue_carbon3.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/blue_carbon2.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/blue_carbon4.jpeg' %}" class="slide-img">
+
+                </div>
+            </div>
+
+            <div class="d-flex gap-2 mt-2">
+                <img src="{% static 'images/blue_carbon1.jpg' %}" class="thumb-img" onclick="goToSlide(0)">
+                <img src="{% static 'images/blue_carbon3.jpg' %}" class="thumb-img" onclick="goToSlide(1)">
+                <img src="{% static 'images/blue_carbon2.jpg' %}" class="thumb-img" onclick="goToSlide(2)">
+                <img src="{% static 'images/blue_carbon4.jpeg' %}" class="thumb-img" onclick="goToSlide(3)">
+            </div>
+
+       </div>
+
+    </div>
+
+   <!-- feature 1 -->
+    <hr class="my-5">
+
+          <p>
+            Modern battery systems are built with advanced cell technology, battery management systems (BMS), and safety protections. Lithium batteries provide higher energy density, while inverter batteries are designed for deep-cycle performance and long backup duration.
+            <br>
+     <img src="{% static 'images/lithium_battery_mainpicture.jpg' %}" class="slide-img">
+    <hr class="my-5">
+
+    <h1 class="mb4 text-center">Inverter</h1>
+
+     <div class="row">
+        <div class="col-md-6">
+             <img src="{% static 'images/blue_carbon4.jpeg' %}" class="slide-img">
+        </div>
+        <div class="col-md-6">
+          <p>
+              <br><br><br>
+              Inverters play a key role in battery systems by converting stored DC power into usable AC electricity for homes and businesses. They ensure smooth power supply during outages and are essential for backup and solar energy systems.<br><br><br>
+
+              When paired with lithium or inverter batteries, they provide stable, efficient, and reliable electricity for all your devices.
+          </p>
+        </div>
+    </div>
+    <hr class="my-5">
+          <p>
+              Battery systems include intelligent management features that protect against overcharging, overheating, and deep discharge. These systems help extend battery life, improve performance, and ensure safe operation in all conditions.
+              <br><br><br>
+              Lithium batteries are compact, lightweight, and highly efficient, making them ideal for modern energy solutions. Inverter batteries, on the other hand, are designed for long backup durations and are widely used in homes and offices.
+              Together, they provide a complete and reliable power solution for both grid and off-grid systems.
+          </p>
+
+    <hr class="my-5">
+
+    <!-- FEATURES -->
+    <h3 class="mb-4 text-center">Key Features</h3>
+
+<div class="row text-center">
+
+    <div class="col-md-3">
+        <i class="bi bi-battery fs-1 text-warning"></i>
+        <h5>High Capacity</h5>
+        <p>Stores large amounts of energy for longer backup time.</p>
+    </div>
+
+    <div class="col-md-3">
+        <i class="bi bi-lightning fs-1 text-success"></i>
+        <h5>Fast Charging</h5>
+        <p>Quick recharge ensures minimal downtime.</p>
+    </div>
+
+    <div class="col-md-3">
+        <i class="bi bi-cpu fs-1 text-primary"></i>
+        <h5>Smart Protection</h5>
+        <p>Built-in BMS for safety and efficiency.</p>
+    </div>
+
+    <div class="col-md-3">
+        <i class="bi bi-shield-check fs-1 text-danger"></i>
+        <h5>Durable</h5>
+        <p>Long lifespan with reliable performance.</p>
+    </div>
+
+</div>
+    <hr class="my-5">
+
+    <!-- DESCRIPTION -->
+    <h3>Description</h3>
+    <p>
+        <span style="color: red;">Charge → Store → Convert → Power Supply</span>
+        Lithium and inverter batteries store electrical energy and deliver it when needed. They provide a reliable, efficient, and eco-friendly solution for backup power and solar energy systems.
+    </p>
+
+    <hr class="my-5">
+
+    <!-- SPECIFICATIONS -->
+    <h3 class="mb-4">Specifications</h3>
+
+    <table class="table table-bordered">
+      <tr>
+        <th>Battery Type</th>
+        <td>Lithium-ion / Tubular Inverter Battery</td>
+    </tr>
+    <tr>
+        <th>Capacity</th>
+        <td>100Ah - 300Ah</td>
+    </tr>
+    <tr>
+        <th>Voltage</th>
+        <td>12V / 24V / 48V</td>
+    </tr>
+    <tr>
+        <th>Charging Time</th>
+        <td>4 - 8 Hours</td>
+    </tr>
+    <tr>
+        <th>Cycle Life</th>
+        <td>2000 - 6000 Cycles (Lithium)</td>
+    </tr>
+    <tr>
+        <th>Efficiency</th>
+        <td>90% - 98%</td>
+    </tr>
+    <tr>
+        <th>Protection</th>
+        <td>Overcharge, Overload, Short Circuit</td>
+    </tr>
+    <tr>
+        <th>Application</th>
+        <td>Solar Systems, Backup Power, Inverters</td>
+    </tr>
+    <tr>
+        <th>Warranty</th>
+        <td>2-5 Years</td>
+    </tr>
+    </table>
+        <!-- battery display -->
+
+
+<div class="row text-center">
+
+    <div class="col-md-4">
+
+  <img src="{% static 'images/blue_carbon1.jpg' %}" class="slide-img">
+
+    </div>
+
+    <div class="col-md-4">
+      <img src="{% static 'images/blue_carbon2.jpg' %}" class="slide-img">
+
+    </div>
+
+     <div class="col-md-4">
+       <img src="{% static 'images/blue_carbon3.jpg' %}" class="slide-img">
+
+    </div>
+
+</div>
+
+
+
+</div>
+
+{% endblock %}

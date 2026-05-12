@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="text-center mt-5">
+    <h3>Processing...</h3>
+    <p>We will send you a message with your total cost shortly.</p>
+</div>
+
+<script>
+    window.location.href = "{{ whatsapp_url }}";
+</script>
+
+{% endblock %}

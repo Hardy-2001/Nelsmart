@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container my-5">
+    <img src="{% static 'images/security_camara_main.jpg' %}" class="slide-img">
+    <h2 class="mb-4 text-center">Solar-powered Security Camera Series</h2>
+<hr class="my-5">
+    <div class="row">
+
+        <div class="col-md-6">
+             <img src="{% static 'images/security1.jpg' %}" class="slide-img">
+        </div>
+
+        <div class="col-md-6">
+              <p>
+                    Powered by sunlight, Nelsmart
+                  Solar-powered Security Camera Setups help establish critical awareness in locations where
+                  power cords are difficult to deploy. Hikvision’s solar-powered product family continues to
+                  grow, adding multiple functions and formats – even kits you can design yourself for your
+                  unique application. The new-generation solar-powered products provide flexible viewing
+                  angles, simple deployment, and reliable performance for virtually limitless scenarios.
+                  Follow Nelsmart to explore more possibilities in solar-powered security.</p>
+                 <ul>
+                    <li>📶 Wireless connectivity</li>
+                    <li>🔋  Rechargeable battery backup</li>
+                    <li>🎥  Motion detection & alerts</li>
+                    <li>☀️ Solar-powered operation</li>
+                     <li>🌙 Night vision</li>
+                </ul>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+
+        <!-- LEFT: IMAGE GALLERY -->
+
+        <!-- RIGHT: TEXT -->
+        <div class="col-md-6">
+                <h2 class="fw-bold">Stay strong, stay reliable</h2>
+
+                <p class="text-muted">
+                    Reliable and energy-efficient lighting solution for streets and outdoor use.
+                </p>
+
+                <ul>
+                    <li>✔ Reliable power storage-With long battery life and low power consumption, power is no longer a problem </li>
+
+                    <li>✔ Reliable performance – Anti-corrosion and IP67 means sturdy performance despite rain, dust and corrosion</li>
+                    <li>✔ Various scenarios – ANPR, AcuSense, radar and PIR detection, and more, multiple intelligent functions fit into various settings</li>
+                    <li>✔ All-day protection – 24/7 color imaging gives you protection all day and night</li>
+                </ul>
+
+                <a href="{% url 'shop' %}?q=Camera"  class="btn btn-warning mt-3">Get This Product</a>
+        </div>
+        <div class="col-md-6">
+
+        <!-- SLIDER WRAPPER -->
+
+
+            <div class="slider-wrapper">
+                <div class="slider-track" id="sliderTrack">
+
+                    <img src="{% static 'images/security1.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/security_camara4.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/solar_security3.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/solar_security1.jpg' %}" class="slide-img">
+
+                </div>
+            </div>
+
+        <!-- THUMBNAILS -->
+            <div class="d-flex gap-2 mt-2">
+                <img src="{% static 'images/security1.jpg' %}" class="thumb-img" onclick="goToSlide(0)">
+                <img src="{% static 'images/security_camara4.jpg' %}" class="thumb-img" onclick="goToSlide(1)">
+                <img src="{% static 'images/solar_security3.jpg' %}" class="thumb-img" onclick="goToSlide(2)">
+                <img src="{% static 'images/solar_security1.jpg' %}" class="thumb-img" onclick="goToSlide(3)">
+            </div>
+
+       </div>
+
+    </div>
+
+   <!-- feature 1 -->
+    <hr class="my-5">
+    <h3 class="mb-4 text-center">Key Features</h3>
+          <p>Instead of purchasing and assembling various solution components
+                separately, which is often difficult and time consuming for the end user, solar-powered Nelsmart
+                cameras eliminate excess design work and parts.
+            <br>
+            With Hikvision's solar-powered cameras, you can enjoy a
+                streamlined deployment process that saves time and . effortBy consolidating the
+                components, these cameras provide a convenient and efficient solution, making it
+                easier than ever to establish a robust security system.
+                The all-in-one design gives you unparalleled
+                convenience in deployment and maintenance, reducing costs and boosting efficiency.</p>
+     <img src="{% static 'images/security_camara3.jpg' %}" class="slide-img">
+
+    <hr class="my-5">
+
+    <!-- FEATURES -->
+    <h3 class="mb-4 text-center">Key Features</h3>
+
+    <div class="row text-center">
+
+        <div class="col-md-3">
+            <i class="bi bi-sun fs-1 text-warning"></i>
+            <h5>Solar Powered</h5>
+            <p>Uses sunlight to generate power during the day.</p>
+        </div>
+
+        <div class="col-md-3">
+            <i class="bi bi-battery-charging fs-1 text-success"></i>
+            <h5>Battery Storage</h5>
+            <p>Stores energy for night usage.</p>
+        </div>
+
+        <div class="col-md-3">
+            <i class="bi bi-lightbulb fs-1 text-primary"></i>
+            <h5>LED Lighting</h5>
+            <p>Bright and energy-saving LED lights.</p>
+        </div>
+
+        <div class="col-md-3">
+            <i class="bi bi-shield-check fs-1 text-danger"></i>
+            <h5>Durable</h5>
+            <p>Built for all weather conditions.</p>
+        </div>
+
+    </div>
+
+    <hr class="my-5">
+
+    <!-- DESCRIPTION -->
+    <h3>Description</h3>
+    <p>
+        Solar street lights are powered by solar panels that charge a battery during the day and provide lighting at night. 
+        They operate automatically using light sensors and require little maintenance. :contentReference[oaicite:0]{index=0} powers the system, making it eco-friendly and cost-effective.
+    </p>
+
+    <p>
+        A complete system includes solar panels, battery, LED lamp, controller, and pole. These components work together to deliver reliable outdoor lighting without depending on grid electricity. :contentReference[oaicite:1]{index=1}
+    </p>
+
+    <hr class="my-5">
+
+    <!-- SPECIFICATIONS -->
+    <h3 class="mb-4">Specifications</h3>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Power</th>
+            <td>100W - 300W</td>
+        </tr>
+        <tr>
+            <th>Battery</th>
+            <td>Lithium Battery</td>
+        </tr>
+        <tr>
+            <th>Solar Panel</th>
+            <td>Monocrystalline</td>
+        </tr>
+        <tr>
+            <th>Lighting Time</th>
+            <td>10-12 Hours</td>
+        </tr>
+        <tr>
+            <th>Warranty</th>
+            <td>2-5 Years</td>
+        </tr>
+    </table>
+
+</div>
+
+{% endblock %}

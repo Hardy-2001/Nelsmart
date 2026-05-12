@@ -1,0 +1,261 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container my-5">
+    <img src="{% static 'images/panel5.jpg' %}" class="slide-img">
+
+
+
+<hr class="my-5">
+    <div class="row">
+
+        <div class="col-md-6">
+             <img src="{% static 'images/panel2.jpg' %}" class="slide-img">
+        </div>
+
+        <div class="col-md-6">
+              <p>
+                    Solar panels are advanced energy-generating devices that convert sunlight into electricity using photovoltaic (PV) technology. They are made up of multiple solar cells that work together to capture sunlight and transform it into usable electrical power. These panels are widely used in homes, offices, industries, and even large-scale solar farms to provide a clean, sustainable, and renewable source of energy that reduces environmental impact.
+
+                  By capturing energy directly from the sun, solar panels significantly reduce electricity costs and minimize dependence on unreliable or expensive power sources such as generators and unstable grid supply. They are suitable for both grid-tied systems, where excess energy can be fed back into the grid, and off-grid systems, where they operate independently to provide power in remote areas. With proper installation and positioning, solar panels can deliver a steady and reliable power supply throughout the day, making them an efficient long-term energy solution for modern living.
+            </p>
+
+        </div>
+    </div>
+
+ <hr class="my-5">
+
+    <div class="row">
+
+       <div class="col-md-6">
+    <h2 class="fw-bold">Stay powered with the sun</h2>
+
+    <p class="text-muted">
+        Efficient and eco-friendly solar panel solutions for homes, businesses, and large-scale energy systems.
+    </p>
+
+    <ul>
+    <li>✔ High energy output – Converts sunlight into usable electricity efficiently</li>
+
+    <li>✔ Durable design – Built to withstand harsh weather conditions</li>
+
+    <li>✔ Low maintenance – Requires minimal servicing over long periods</li>
+
+    <li>✔ Wide applications – Suitable for residential, commercial, and industrial use</li>
+
+    <li>✔ Eco-friendly – Produces clean energy with zero emissions</li>
+
+    <li>✔ Long lifespan – Can last 20–25 years with proper use</li>
+
+    <li>✔ Cost-saving – Reduces electricity bills over time</li>
+
+    <li>✔ Easy installation – Can be installed on rooftops or open spaces</li>
+
+    <li>✔ Scalable system – Can be expanded as energy needs grow</li>
+
+    <li>✔ Reliable performance – Generates power even in low sunlight conditions</li>
+</ul>
+
+    <a href="{% url 'shop' %}?q=solar "  class="btn btn-warning mt-3">Get This Product</a>
+</div>
+
+        <div class="col-md-6">
+            <div class="slider-wrapper">
+                <div class="slider-track" id="sliderTrack">
+
+                    <img src="{% static 'images/panel1.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/panel2.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/panel.jpg' %}" class="slide-img">
+                    <img src="{% static 'images/panel6.jpg' %}" class="slide-img">
+
+                </div>
+            </div>
+
+            <div class="d-flex gap-2 mt-2">
+                <img src="{% static 'images/panel1.jpg' %}" class="thumb-img" onclick="goToSlide(0)">
+                <img src="{% static 'images/panel2.jpg' %}" class="thumb-img" onclick="goToSlide(1)">
+                <img src="{% static 'images/panel.jpg' %}"  class="thumb-img" onclick="goToSlide(2)">
+                <img src="{% static 'images/panel6.jpg' %}" class="thumb-img" onclick="goToSlide(3)">
+            </div>
+
+       </div>
+
+    </div>
+
+   <!-- feature 1 -->
+
+
+    <hr class="my-5">
+
+
+     <div class="row">
+        <div class="col-md-6">
+             <img src="{% static 'images/panel4.jpg' %}" class="slide-img">
+        </div>
+        <div class="col-md-6">
+          <p>
+              <br><br><br>
+
+              Solar panel systems are built with high-efficiency photovoltaic (PV) cells, protective tempered glass layers, and strong, corrosion-resistant frames designed to withstand harsh environmental conditions. These panels are engineered using advanced technology to maximize sunlight absorption and convert it into usable electrical energy with high efficiency. Modern solar panels offer excellent energy conversion rates, improved performance even in low-light conditions, and long-term reliability, ensuring consistent and sustainable power generation for residential, commercial, and industrial applications over many years.**
+
+          </p>
+        </div>
+    </div>
+    <hr class="my-5">
+          <p>
+              Solar panels are designed to operate efficiently under various weather conditions. With proper installation and positioning, they can generate power throughout the year. Their long lifespan and minimal maintenance make them a cost-effective energy solution.
+              <br><br><br>
+              Whether for homes, offices, or industrial use, solar panels offer a sustainable way to generate electricity while reducing environmental impact.
+          </p>
+
+    <hr class="my-5">
+
+    <!-- FEATURES -->
+    <h3 class="mb-4 text-center">Key Features</h3>
+
+<div class="row text-center">
+
+    <div class="col-md-3">
+        <i class="bi bi-sun fs-1 text-warning"></i>
+        <h5>High Efficiency</h5>
+        <p>Maximizes sunlight conversion into electricity.</p>
+    </div>
+
+    <div class="col-md-3">
+        <i class="bi bi-lightning fs-1 text-success"></i>
+        <h5>Reliable Output</h5>
+        <p>Consistent energy generation throughout the day.</p>
+    </div>
+
+    <div class="col-md-3">
+        <i class="bi bi-cpu fs-1 text-primary"></i>
+        <h5>Advanced Technology</h5>
+        <p>Built with modern photovoltaic cell technology.</p>
+    </div>
+
+    <div class="col-md-3">
+        <i class="bi bi-shield-check fs-1 text-danger"></i>
+        <h5>Durable</h5>
+        <p>Weather-resistant and long-lasting performance.</p>
+    </div>
+
+</div>
+    <hr class="my-5">
+
+    <!-- DESCRIPTION -->
+
+     <img src="{% static 'images/panel7.jpg' %}" class="slide-img">
+    <p>
+        <span style="color: red;">Sunlight → Solar Panels → Electricity → Power Supply</span>
+        Solar panels convert sunlight into electricity, providing a clean, renewable, and cost-effective energy source for various applications.
+    </p>
+
+    <hr class="my-5">
+
+    <!-- SPECIFICATIONS -->
+    <h3 class="mb-4">Specifications</h3>
+
+    <table class="table table-bordered">
+      <tr>
+        <th>Panel Type</th>
+        <td>Monocrystalline / Polycrystalline</td>
+    </tr>
+    <tr>
+        <th>Power Output</th>
+        <td>100W - 600W</td>
+    </tr>
+    <tr>
+        <th>Efficiency</th>
+        <td>18% - 23%</td>
+    </tr>
+    <tr>
+        <th>Voltage</th>
+        <td>12V / 24V / 48V</td>
+    </tr>
+    <tr>
+        <th>Operating Temperature</th>
+        <td>-40°C to 85°C</td>
+    </tr>
+    <tr>
+        <th>Material</th>
+        <td>Tempered Glass / Aluminum Frame</td>
+    </tr>
+    <tr>
+        <th>Application</th>
+        <td>Homes, Offices, Solar Systems</td>
+    </tr>
+    <tr>
+        <th>Warranty</th>
+        <td>10-25 Years</td>
+    </tr>
+    </table>
+
+    <!-- panel display -->
+<div class="row text-center">
+    <div class="col-md-4">
+
+             <img src="{% static 'images/panel1_2.JPG' %}" class="slide-img">
+
+
+    </div>
+
+    <div class="col-md-4">
+      <img src="{% static 'images/panel1_3.JPG' %}" class="slide-img">
+
+    </div>
+
+    <div class="col-md-4">
+       <img src="{% static 'images/panel1_2.JPG' %}" class="slide-img">
+
+    </div>
+
+</div>
+
+</div>
+<div class="service-card_main">
+
+        <!-- IMAGE -->
+        <img src="{% static 'images/solar4.jpg' %}" class="service-img_main shadow">
+
+        <!-- TEXT -->
+        <div class="service-content_main">
+
+            <h1>Inverter Only Installation</h1>
+            <p>
+                Inverter-only installation is a power backup solution designed to provide electricity during outages without relying on solar energy. This system typically includes an inverter, batteries, and connection to the main power supply. When there is a power failure, the inverter automatically switches to battery power, ensuring uninterrupted electricity for essential appliances such as lights, fans, TVs, and small electronics.
+            </p>
+
+            <p>
+                This type of installation is ideal for homes and small businesses that experience frequent power cuts but are not yet ready to invest in a full solar system. It is more affordable than solar installations and easier to set up, making it a popular entry-level backup solution.
+            </p>
+
+            <p>
+                Inverter systems are flexible and can be upgraded in the future to include solar panels, allowing users to transition gradually into renewable energy. They also offer quiet operation, low maintenance, and improved energy reliability compared to generators.
+            </p>
+
+
+            <h1>Solar Only Installation</h1>
+            <p>
+                Solar-only installation refers to a system that uses solar panels to generate electricity directly from sunlight without battery storage. In this setup, the energy produced by the solar panels is used instantly to power appliances during the day. Any excess energy can be redirected or stored externally depending on the system configuration.
+            </p>
+
+            <p>
+                This type of system is ideal for areas with stable electricity supply where the goal is to reduce electricity bills rather than provide backup power. It is more cost-effective than full hybrid systems because it does not require batteries, which are often the most expensive component.
+            </p>
+
+            <p>
+                Solar-only systems are environmentally friendly, reduce dependence on grid electricity, and help lower carbon emissions. They are commonly used in offices, schools, and homes where daytime energy consumption is high.
+            </p>
+
+            <p>
+                With proper installation and positioning of solar panels, users can achieve significant savings on electricity costs while contributing to a cleaner and more sustainable energy future.
+            </p>
+             <a class="red-link" href="{% url 'solar_only_cost' %}">  Get Solar only cost estimate </a></li>
+            </ul>
+        </div>
+
+    </div>
+
+{% endblock %}

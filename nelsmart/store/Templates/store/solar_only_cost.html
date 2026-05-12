@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container py-5">
+<div class="mx-auto" style="max-width: 700px;">
+
+<!-- HEADER -->
+<div class="btn btn-warning w-100 fw-bold py-2">
+    <h2 class="fw-bold">Solar Only Cost</h2>
+    <p class="text-muted">Fill in your system details</p>
+</div>
+
+<!-- LOGO -->
+<div class="text-center mb-4">
+    <img src="{% static 'images/logo.png' %}" width="120">
+</div>
+
+<form method="post">
+{% csrf_token %}
+
+<!-- PERSONAL INFO -->
+<div class="card p-4 mb-4 shadow-sm section-card">
+    <h5 class="section-title">📌 Personal Information</h5>
+
+    <div class="mb-3">
+        <label>Email *</label>
+        <input type="email" name="email" class="form-control input-style" required>
+    </div>
+
+    <div class="mb-3">
+        <label>Phone Number</label>
+        <input type="text" name="phone" class="form-control input-style">
+    </div>
+
+    <div>
+        <label>Project Location</label>
+        <select name="state" class="form-control input-style">
+           <option>Douala</option>
+                    <option>Yaoundé</option>
+                    <option>Bamenda</option>
+                    <option>Buea</option>
+                    <option>Garoua</option>
+                    <option>Limbe</option>
+                    <option>Maroua</option>
+        </select>
+    </div>
+</div>
+
+<!-- BATTERY SECTION -->
+<div class="card p-4 mb-4 shadow-sm section-card">
+    <h5 class="section-title">🔋 Battery Specs</h5>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label>Capacity</label>
+            <select name="battery_capacity" class="form-control input-style">
+                <option>200AH 12V</option>
+                <option>150AH 12V</option>
+            </select>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label>Quantity</label>
+            <select name="battery_qty" class="form-control input-style">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!-- INVERTER SECTION -->
+<div class="card p-4 mb-4 shadow-sm section-card">
+    <h5 class="section-title">⚡ Inverter Specs</h5>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label>Power</label>
+            <select name="inverter_power" class="form-control input-style">
+                <option>1KVA</option>
+                <option>1.5KVA</option>
+                <option>2KVA</option>
+                <option>3KVA</option>
+                <option>4KVA</option>
+                <option>5KVA</option>
+            </select>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label>Voltage</label>
+            <select name="voltage" class="form-control input-style">
+                <option>12V</option>
+                <option>24V</option>
+                <option>48V</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!-- MESSAGE -->
+<div class="card p-4 mb-4 shadow-sm section-card">
+    <h5 class="section-title">💬 Message</h5>
+
+    <textarea name="message" class="form-control input-style" rows="4"></textarea>
+</div>
+
+<!-- SUBMIT -->
+<button class="btn btn-warning w-100 fw-bold py-2">
+    Submit Request
+</button>
+
+</form>
+
+</div>
+</div>
+
+{% endblock %}
+<style>
+
+.logo-img {
+    max-height: 90px;
+}
+
+/* RED HEADER LINE */
+.top-card {
+    border-top: 5px solid #dc3545;
+}
+
+/* SECTION STYLE */
+.section-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+/* SECTION TITLE */
+.section-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* INPUT STYLE */
+.input-style {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* BUTTON */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+</style>

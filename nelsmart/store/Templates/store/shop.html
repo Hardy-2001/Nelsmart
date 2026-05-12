@@ -1,0 +1,121 @@
+ {% extends 'base.html' %}
+
+{% block content %}
+ {% if products %}
+    <!-- product grid -->
+{% else %}
+    <p class="text-center">No products found</p>
+{% endif %}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Shop Products</h2>
+     <div class="row mb-4 justify-content-center">
+         <div class="col-md-6">
+           <form method="GET">
+                <div class="input-group">
+                     <input
+                    type="text"
+                    name="q"
+                    class="form-control"
+                    placeholder="Search products..."
+                    value="{{ request.GET.q }}"
+                   >
+                    <button class="btn btn-warning">Search</button>
+                </div>
+          </form>
+         </div>
+    </div>
+
+    <div class="row">
+
+{% for product in page_obj %}
+
+    <!-- PRODUCT CARD -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow product-card">
+
+            <div class="position-relative">
+
+                <img src="{{ product.image.url }}" class="card-img-top product-img">
+
+                <!-- OVERLAY -->
+                <div class="overlay">
+                    <button class="btn btn-light"
+                            data-bs-toggle="modal"
+                            data-bs-target="#quickView{{ product.id }}">
+                        Quick View
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="card-body text-center d-flex flex-column">
+                <h5>{{ product.name }}</h5>
+                <p>{{ product.price }} FCFA</p>
+
+                <a href="{% url 'add_to_cart' product.id %}"
+                   class="btn btn-warning mt-auto">
+                   Add to Cart
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ✅ MODAL FOR THIS PRODUCT (PUT IT HERE) -->
+    <div class="modal fade" id="quickView{{ product.id }}" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">{{ product.name }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{ product.image.url }}" class="img-fluid">
+                        </div>
+
+                        <div class="col-md-6">
+                            <h4>{{ product.price }} FCFA </h4>
+                            <p>{{ product.description }}</p>
+
+                            <a href="{% url 'add_to_cart' product.id %}"
+                               class="btn btn-warning">
+                               Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% endfor %}
+
+</div>
+    <div class="text-center mt-4">
+
+    {% if page_obj.has_previous %}
+        <a href="?q={{ request.GET.q }}&page={{ page_obj.previous_page_number }}" class="btn btn-dark">
+            Previous
+        </a>
+    {% endif %}
+
+    <span class="mx-3">
+        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+    </span>
+
+    {% if page_obj.has_next %}
+        <a href="?q={{ request.GET.q }}&page={{ page_obj.next_page_number }}" class="btn btn-dark">
+            Next
+        </a>
+    {% endif %}
+
+ </div>
+</div>
+
+{% endblock %}
