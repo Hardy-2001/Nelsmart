@@ -5,60 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce3c25b9-0ded-4dab-8195-312b75718bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NELSMART.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/basic_plan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/culture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/free_visit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/get_informed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/all-in-one-light.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/alltop-battery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/battery-tech.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/blue-carbon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/br-battery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/lithium_battery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/mono-panel-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/mono-panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/nelsmart-battery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar-myths.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar-review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar_farm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar_system.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/street-light.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/three-in-one-light.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/two-in-one-light.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/payment_delivery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/premium_plan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/privacy_policy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/product_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/project_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/projectsrrrrrr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/return_policy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_cost.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_only_cost.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/standard_plan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/Templates/store/terms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/context_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/store/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/training/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/training/templates/training/apply.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/training/templates/training/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nelsmart/training/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.settings.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.views.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.settings.executor": "Debug",
+    "Python.views.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\PycharmProjects\NELSMART\nelsmart\store\Templates\store" />
