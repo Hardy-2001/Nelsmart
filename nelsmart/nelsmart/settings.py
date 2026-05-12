@@ -22,10 +22,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7&q5)sdjnwtfj_v*59r0md68$7ghip%fzt^3w-em%14-7+z7hj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    '.onrender.com',
+    'nelsmart.org',
+    'www.nelsmart.org',
+]
 
-ALLOWED_HOSTS = ['127.0.0.1', '192.168.1.65']
+CSRF_TRUSTED_ORIGINS = [
+    'https://nelsmart.org',
+    'https://www.nelsmart.org',
+]
 
 
 # Application definition

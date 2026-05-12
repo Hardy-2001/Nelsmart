@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce3c25b9-0ded-4dab-8195-312b75718bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nelsmart/nelsmart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/nelsmart/settings.py" afterDir="false" />
     </list>
