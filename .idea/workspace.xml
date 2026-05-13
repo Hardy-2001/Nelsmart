@@ -5,7 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce3c25b9-0ded-4dab-8195-312b75718bb5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/nelsmart/nelsmart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/nelsmart/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/2in1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/2in1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/2in1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/2in1_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/3in1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/3in1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/3in1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/3in1_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/BR_Solar_Battery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/BR_Solar_Battery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/BR_Solar_Battery2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/BR_Solar_Battery2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/Pump1_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/Pump1_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/about_pic1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/about_pic1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/about_pic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/about_pic1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/all_in_one.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/all_in_one.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/all_in_one2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/all_in_one2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/alltop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/alltop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/alltop1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/alltop1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/alltop2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/alltop2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/alltop3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/alltop3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/background image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/background image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/blue_carbon1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/blue_carbon1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/blue_carbon2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/blue_carbon2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/blue_carbon3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/blue_carbon3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/blue_carbon4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/blue_carbon4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/blue_carbon_picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/blue_carbon_picture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/bluecarbon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/bluecarbon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/bluecarbon1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/bluecarbon1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/bluecarbon2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/bluecarbon2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/br.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/br.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/culturePic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/culturePic1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/light1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/light1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/light2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/light2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/light3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/light3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/link-slide.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/link-slide.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/lithium1_picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/lithium1_picture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/lithium_battery_mainpicture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/lithium_battery_mainpicture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/logo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/logo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/logo2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/logo2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/nelsmart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/nelsmart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/nelsmart1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/nelsmart1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/nelsmart2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/nelsmart2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/nelsmart_inverter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/nelsmart_inverter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/pabel3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/pabel3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/pan.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/pan.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel1_2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel1_2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel1_3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel1_3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel1_4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel1_4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/panel8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/panel8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/picture_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/picture_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/picture_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/picture_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/polycrystalline solar panel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/polycrystalline solar panel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/polycrystalline solar panel1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/polycrystalline solar panel1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/project_image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/project_image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/pump1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/pump1_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/pump1_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/pump1_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/pump1_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/pump1_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/security1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/security1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/security_camara2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/security_camara2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/security_camara3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/security_camara3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/security_camara4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/security_camara4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/security_camara_main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/security_camara_main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar1.png" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_main_frondpage_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_main_frondpage_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_pump1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_pump1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_pump1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_pump1_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_pump_mainfron_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_pump_mainfron_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_security1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_security1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_security2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_security2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_security3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_security3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/static/images/solar_security4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/static/store/images/solar_security4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/store/templates/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +138,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\NELSMART\nelsmart\store\static\store" />
       <recent name="C:\Users\HP\PycharmProjects\NELSMART\nelsmart" />
       <recent name="C:\Users\HP\PycharmProjects\NELSMART\nelsmart\store\Templates\store" />
       <recent name="C:\Users\HP\PycharmProjects\NELSMART\nelsmart\store" />
