@@ -5,49 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce3c25b9-0ded-4dab-8195-312b75718bb5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/basic_plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/basic_plan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/culture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/free_visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/free_visit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/get_informed.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/get_informed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/all-in-one-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/all-in-one-light.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/alltop-battery.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/alltop-battery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/battery-tech.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/battery-tech.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/blue-carbon.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/blue-carbon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/br-battery.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/br-battery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/lithium_battery.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/lithium_battery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/mono-panel-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/mono-panel-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/mono-panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/mono-panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/nelsmart-battery.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/nelsmart-battery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar-myths.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/solar-myths.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/solar-review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar_farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/solar_farm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/solar_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/solar_system.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/street-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/street-light.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/three-in-one-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/three-in-one-light.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/info/two-in-one-light.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/info/two-in-one-light.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/payment_delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/payment_delivery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/premium_plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/premium_plan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/privacy_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/privacy_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/project_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/project_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/projectsrrrrrr.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/projectsrrrrrr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/return_policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/return_policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_cost.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/solar_cost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_only_cost.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/solar_only_cost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_redirect.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/solar_redirect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/solar_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/solar_success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/standard_plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/standard_plan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nelsmart/store/Templates/store/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/store/templates/store/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nelsmart/nelsmart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nelsmart/nelsmart/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
