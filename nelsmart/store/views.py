@@ -118,33 +118,32 @@ Items:
             message += f"\nTotal Amount: {total} FCFA"
 
             # ---------- SEND EMAIL ----------
-            try:
-                email_msg = EmailMessage(
-                    'New Order Received',
-                    message,
-                    from_email='Nelsonatud@yahoo.com',
-                    to=['Nelsonatud@yahoo.com'],
-                )
-                email_msg.send()
-            except Exception as e:
-                print("Email error:", e)
+            # try:
+            #     email_msg = EmailMessage(
+            #         'New Order Received',
+            #         message,
+            #         from_email='Nelsonatud@yahoo.com',
+            #         to=['Nelsonatud@yahoo.com'],
+            #     )
+            #     email_msg.send()
+            # except Exception as e:
+            #     print("Email error:", e)
 
             # ---------- WHATSAPP ----------
             encoded_message = urllib.parse.quote(message)
 
-            # ✅ Your number (Cameroon)
-            whatsapp_number = "237675940002"   # no +, no spaces
+            # Your WhatsApp number
+            whatsapp_number = "237675940002"
 
             whatsapp_url = f"https://wa.me/{whatsapp_number}?text={encoded_message}"
 
             # clear cart
             request.session['cart'] = {}
 
-            # 👉 redirect to WhatsApp
+            # redirect to WhatsApp
             return redirect(whatsapp_url)
 
     return render(request, 'store/checkout.html', {'form': form})
-
 
 
 
