@@ -186,7 +186,7 @@ Message:
             )
             email.send()
         except Exception as e:
-            print("Email error:", e)
+            pass
 
         # ---------- WHATSAPP ----------
         whatsapp_text = urllib.parse.quote(email_message)
