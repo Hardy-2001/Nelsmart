@@ -177,16 +177,16 @@ Message:
 {message}
 """
 
-        try:
-            email = EmailMessage(
-                subject='New Free Site Visit Request',
-                body=email_message,
-                from_email='Nelsonatud@yahoo.com',   # you can keep this for now
-                to=['Nelsonatud@yahoo.com'],       # your email
-            )
-            email.send()
-        except Exception as e:
-            pass
+        #try:
+         #   email = EmailMessage(
+          #      subject='New Free Site Visit Request',
+           #     body=email_message,
+            #    from_email='Nelsonatud@yahoo.com',   # you can keep this for now
+             #   to=['Nelsonatud@yahoo.com'],       # your email
+            #)
+            #email.send()
+        #except Exception as e:
+         #   pass
 
         # ---------- WHATSAPP ----------
         whatsapp_text = urllib.parse.quote(email_message)
@@ -293,14 +293,13 @@ State: {state}
 Total Cost: {total} FCFA
 """
 
-        try:
-            EmailMessage(
-                'Solar Cost Request',
-                full_message,
-                to=['Nelsonatud@yahoo.com']
-            ).send()
-        except:
-            pass
+       #    EmailMessage(
+        #        'Solar Cost Request',
+         #       full_message,
+          #      to=['Nelsonatud@yahoo.com']
+         #   ).send()
+        #except:
+         #   pass
 
         # AUTO WHATSAPP REDIRECT
         whatsapp_text = urllib.parse.quote(full_message)
